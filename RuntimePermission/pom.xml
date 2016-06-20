@@ -1,0 +1,6 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.android.runtimepermission</groupId>
+    <artifactId>runtime-permission</artifactId>
+    <version>0.0.1</version>
+</project>
