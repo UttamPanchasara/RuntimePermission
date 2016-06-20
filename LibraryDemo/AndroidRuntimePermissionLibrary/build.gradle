@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'androidruntimepermission'
+
+    publishedGroupId = 'com.androidruntimepermission'
+    libraryName = 'AndroidRuntimePermission'
+    artifact = 'androidruntimepermission'
+
+    libraryDescription = 'Library to ask permission to user manually'
+
+    siteUrl = 'https://github.com/UttamPanchasara/AndroidRuntimePermission'
+    gitUrl = 'https://github.com/UttamPanchasara/AndroidRuntimePermission.git'
+
+    libraryVersion = '0.1'
+
+    developerId = 'uttam`'
+    developerName = 'Uttam Panchasara'
+    developerEmail = 'panchasarauttam@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "uttampanchasara.librarydemo"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile project(':runtimepermission')
+}
