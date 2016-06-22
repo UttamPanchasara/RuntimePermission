@@ -2,6 +2,8 @@
 
 This Library will help you to ask new Runtime Permissions introduced in Android M. This library allows you to check them in background and as well ask for a permission in easy way. just need to ADD THIS :)
 
+**compatible with minSdkVersion 16**
+
 #How to Ask Permission 
 
 
@@ -31,7 +33,7 @@ it will automatically handle all things. if user `deny` permission or check `nev
 As it is hosted at JCenter you can use it by adding this to your build.gradle:
 
     dependencies {
-          compile 'com.android.runtimepermission:runtimepermission:0.0.1'
+          compile 'com.android.runtimepermission:runtimepermission:1.0.2'
     }
 
 
