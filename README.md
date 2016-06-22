@@ -6,16 +6,17 @@ This Library will help you to ask new Runtime Permissions introduced in Android 
 
 #How to Ask Permission 
 
+**To use First of all extends your ActivityClass from :** `RuntimePermission`
 
-//Define Permission
+**// Define Permission**
 
     public final String mCalenderPermission = Manifest.permission.WRITE_CALENDAR;
   
-// To set permission use:  `askPermissionFor(permission, "permissionName")`
+**// To set permission use:**  `askPermissionFor(permission, "permissionName")`
 
     askPermissionFor(mCalenderPermission,"Calendar");     
     
-// To Check whether permission is granted or Not use: `isPermissionGranted()` if not then ask using: `requestPermission();`
+**// To Check whether permission is granted or Not use:** `isPermissionGranted()` **if not then ask using:** `requestPermission();`
 
     if(!isPermissionGranted()){
         requestPermission();      // if not then ask Permission
@@ -30,7 +31,7 @@ it will automatically handle all things. if user `deny` permission or check `nev
 
 #How to import
 
-As it is hosted at JCenter you can use it by adding this to your build.gradle:
+**As it is hosted at JCenter you can use it by adding this to your build.gradle:**
 
     dependencies {
           compile 'com.android.runtimepermission:runtimepermission:1.0.2'
