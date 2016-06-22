@@ -4,6 +4,11 @@ This Library will help you to ask new Runtime Permissions introduced in Android 
 
 **compatible with minSdkVersion 16**
 
+![alt tag](http://utm1994.5gbfree.com/githubScreenshots/Screenshot_20160622-181823.jpg)
+![alt tag](http://utm1994.5gbfree.com/githubScreenshots/Screenshot_20160622-181840.jpg)
+![alt tag](http://utm1994.5gbfree.com/githubScreenshots/Screenshot_20160622-181903.jpg)
+![alt tag](http://utm1994.5gbfree.com/githubScreenshots/Screenshot_20160622-181911.jpg)
+
 #How to Ask Permission 
 
 **To use First of all extends your ActivityClass from :** `RuntimePermission`
