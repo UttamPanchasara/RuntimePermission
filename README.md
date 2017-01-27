@@ -4,7 +4,7 @@ This Library will help you to ask new Runtime Permissions introduced in Android 
 
 #Usage
 
-First Paste the RuntimePermission in your Project.
+First Paste the RuntimePermission class in your Project.
 
 Extend Your activity from `RuntimePermission`
 then set permission of which you want to ask.
