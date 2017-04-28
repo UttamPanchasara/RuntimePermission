@@ -1,12 +1,12 @@
 # AndroidRuntimePermission Sample
 
-This Library will help you to ask new Runtime Permissions introduced in Android M. This library allows you to check them in background and as well ask for a permission in easy way. just need to ADD THIS :)
+This is the Helper class to ask permission, will help you to ask new Runtime Permissions introduced in Android M. it will allows you to check them in background and as well ask for a permission in easy way. just need to ADD THIS :)
 
 #Usage
 
 First Paste the RuntimePermission class in your Project.
 
-Extend Your activity from `RuntimePermission`
+Extend Your activity from `RuntimePermission` or Your can extends in `BaseActivity`
 then set permission of which you want to ask.
 
 **// Define Permission**
