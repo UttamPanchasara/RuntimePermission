@@ -1,4 +1,4 @@
-# AndroidRuntimePermission Sample
+# Android RuntimePermission Helper Class
 
 This is the Helper class to ask Permission, will help you to ask new Runtime Permissions introduced in Android M. it will allows you to check them in background and as well ask for a permission in easy way. just need to ADD THIS :)
 
